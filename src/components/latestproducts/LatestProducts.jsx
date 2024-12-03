@@ -69,10 +69,10 @@ const lightsData = [
 const LatestProducts = () => {
   return (
     <div className=' total-width mx-auto  py-14 px-5 mt-10'>
-          <h1 className=' text-center text-white text-2xl font-bold capitalize'>Latest New Products </h1>
+          <h1 className=' text-center text-white text-3xl font-bold capitalize'>Latest New Products </h1>
         <div className='grid xl:grid-cols-4  md:grid-cols-3 sm:grid-cols-2  gap-5 mt-5 place-items-center'>
         {lightsData.map((ele) => (
-            <div key={ele.id} className="p-4  cursor-pointer rounded-xl max-sm:max-w-[320px] shadow-lg max-w-[280px] w-full">
+            <div key={ele.id} className="p-4  cursor-pointer rounded-xl max-sm:max-w-[320px] shadow-lg max-w-[300px] w-full">
               <div className=" h-56">
               <img
                 src={ele.imageUrl}
