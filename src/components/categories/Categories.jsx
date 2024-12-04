@@ -1,12 +1,16 @@
 import React, { useState } from "react";
 import { FaLightbulb, FaSearch, FaCogs, FaPaintBrush } from "react-icons/fa"; // Example icons
+import { LiaSolarPanelSolid } from "react-icons/lia";
+import { FcLightAtTheEndOfTunnel } from "react-icons/fc";
+import { GiEnlightenment,GiBedLamp,GiDeskLamp   } from "react-icons/gi";
 
 // Data for categories and additional details (including an image URL for each category)
 const categories = [
   {
     id: 1,
     name: "Panel Lights",
-    icon: <FaLightbulb />,
+    icon: <LiaSolarPanelSolid />
+    ,
     items: 25,
     img: "https://via.placeholder.com/150",
     price: "$50",
@@ -16,7 +20,7 @@ const categories = [
   {
     id: 2,
     name: "Flood Lights",
-    icon: <FaSearch />,
+    icon: <FcLightAtTheEndOfTunnel />,
     items: 15,
     img: "https://via.placeholder.com/150",
     price: "$80",
@@ -26,7 +30,7 @@ const categories = [
   {
     id: 3,
     name: "COB Lights",
-    icon: <FaCogs />,
+    icon: <GiEnlightenment />,
     items: 30,
     img: "https://via.placeholder.com/150",
     price: "$60",
@@ -36,7 +40,7 @@ const categories = [
   {
     id: 4,
     name: "Lamps",
-    icon: <FaCogs />,
+    icon: <GiBedLamp />,
     items: 30,
     img: "https://via.placeholder.com/150",
     price: "$60",
@@ -78,7 +82,7 @@ const categories = [
   {
     id: 8,
     name: "Street Lights",
-    icon: <FaPaintBrush />,
+    icon: <GiDeskLamp />,
     items: 50,
     img: "https://via.placeholder.com/150",
     price: "$25",

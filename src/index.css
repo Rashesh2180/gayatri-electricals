@@ -12,7 +12,7 @@ body {
   box-sizing: border-box;
 }
 .total-width{
- @apply max-w-[1600px] mx-auto
+ @apply max-w-[1600px] mx-auto relative
   
 }
 ::-webkit-scrollbar{
