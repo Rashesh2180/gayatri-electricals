@@ -122,7 +122,7 @@ const categories = [
 ];
 
 const Categories = () => {
-  const [selectedCategory, setSelectedCategory] = useState(null);
+  const [selectedCategory, setSelectedCategory] = useState(1);
 
   const handleClick = (id) => {
     setSelectedCategory(selectedCategory === id ? null : id);

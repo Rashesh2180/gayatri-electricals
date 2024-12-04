@@ -24,7 +24,7 @@ const Products = () => {
                 <h3 className="text-lg font-semibold text-white">{ele.name}</h3>
                 <h2 className="mt-1 text-sm text-gray-400">{ele.watt} Watt</h2>
               </div>
-              <p className="text-sm text-orange-600">{ele.price}</p>
+              <p className="text-sm text-orange-600">₹ {ele.price}</p>
             </div>
           </Link>
         ))}
