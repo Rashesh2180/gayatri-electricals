@@ -20,7 +20,7 @@ export const lightsData =   [
       name: "flood",
       price: "15",
       imageUrl:
-        "https://www.lampshoponline.com/media/wysiwyg/solo-floodlight.jpg",
+        "https://i.pinimg.com/736x/66/b3/eb/66b3ebd75dbd7e36db0b53fe8b6d15b5.jpg",
       wallOptions: ["Wall 4", "Wall 5"],
       watt: "17",
       description: "Perfect for home or office use, this LED ceiling light offers both style and performance.",
@@ -84,7 +84,7 @@ export const lightsData =   [
       name: "Zummer",
       price: "12",
       imageUrl:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR253wB6401cO3t34dAozspAUwUUZplJnp0HA&s",
+        "https://i.pinimg.com/736x/8b/6f/94/8b6f94f36adb2180b3192698bbabf37b.jpg",
       wallOptions: ["Wall 9", "Wall 10"],
       watt: "15",
       description: "Perfect for home or office use, this LED ceiling light offers both style and performance.",
@@ -100,7 +100,7 @@ export const lightsData =   [
       name: "Wall Led",
       price: "20",
       imageUrl:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRm3-NTcZZVaG-1tvZ2ywHs829W8C-SytVr1w&s",
+        "https://i.pinimg.com/736x/3e/a4/f6/3ea4f6a7d350ca04b17b072550f5ffd5.jpg",
       wallOptions: ["Wall 6", "Wall 7", "Wall 8"],
       watt: "18",
       description: "Perfect for home or office use, this LED ceiling light offers both style and performance.",
@@ -116,7 +116,7 @@ export const lightsData =   [
       name: "Zummer",
       price: "12",
       imageUrl:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRm3-NTcZZVaG-1tvZ2ywHs829W8C-SytVr1w&s",
+        "https://i.pinimg.com/736x/8b/6f/94/8b6f94f36adb2180b3192698bbabf37b.jpg",
       wallOptions: ["Wall 9", "Wall 10"],
       watt: "15",
       description: "Perfect for home or office use, this LED ceiling light offers both style and performance.",

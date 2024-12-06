@@ -8,52 +8,54 @@ const reviewsData = [
   {
     id: 1,
     avatar: 'https://randomuser.me/api/portraits/men/1.jpg',
-    name: 'John Doe',
-    post: 'Great Product',
+    name: 'Ravi Sharma',
+    post: 'Bahut accha product',
     rating: 4,
-    reviewText: 'I absolutely loved this product! It works just as described, and I highly recommend it.',
+    reviewText: 'Yeh product bahut accha hai. Quality bhi acchi hai aur price bhi theek hai.',
   },
   {
     id: 2,
     avatar: 'https://randomuser.me/api/portraits/women/1.jpg',
-    name: 'Jane Smith',
-    post: 'Not Bad',
+    name: 'Priya Patel',
+    post: 'Good hai',
     rating: 3,
-    reviewText: 'The product is okay, but I think it could use some improvements in design.',
+    reviewText: 'Product best hai,  uska design and quality bahut accha hai.',
   },
   {
     id: 3,
-    avatar: 'https://randomuser.me/api/portraits/men/2.jpg',
-    name: 'Bob Johnson',
-    post: 'Good Value',
+    avatar: 'https://img.freepik.com/free-photo/indian-man-portrait-temple_53876-14535.jpg',
+    name: 'Amit Verma',
+    post: 'Accha value hai',
     rating: 5,
-    reviewText: 'Amazing quality for the price. Exceeded my expectations!',
+    reviewText: 'Price ke hisaab se yeh product zabardast hai. Mere expectations se bhi zyada accha hai.',
   },
   {
     id: 4,
-    avatar: 'https://randomuser.me/api/portraits/women/2.jpg',
-    name: 'Alice Brown',
-    post: 'Decent',
+    avatar: 'https://media.gettyimages.com/id/1429125771/photo/portrait-of-mature-indian-female-employee-in-office-indian-businesswoman-looking-at-camera.jpg?s=612x612&w=gi&k=20&c=9dkDWiKirlZ5rNTanpZuygOXpaMMrP8sJkCDEqvlvzA=',
+    name: 'Neha Singh',
+    post: 'packing safe kya hai',
     rating: 4,
-    reviewText: 'Good product overall. I have no major complaints, but a few features could be improved.',
+    reviewText: 'price ke hisab se prodcut kafi accha hai and working me output sahi hai.',
   },
   {
     id: 5,
-    avatar: 'https://randomuser.me/api/portraits/women/2.jpg',
-    name: 'Alice Brown',
-    post: 'Decent',
+    avatar: 'https://media.istockphoto.com/id/1320811419/photo/head-shot-portrait-of-confident-successful-smiling-indian-businesswoman.jpg?s=612x612&w=0&k=20&c=bCUTB8vd8MnzZFIq-x645-SmLNk2sQzOvOvWCPGDfZ4=',
+    name: 'Sonali Mehta',
+    post: 'Quality build achha hai',
     rating: 4,
-    reviewText: 'Good product overall. I have no major complaints, but a few features could be improved.',
+    reviewText: ' Delivery fast and safe ki hai products valuable  and unique hai. ',
   },
   {
     id: 6,
-    avatar: 'https://randomuser.me/api/portraits/women/2.jpg',
-    name: 'Alice Brown',
-    post: 'Decent',
+    avatar: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT72wtv4XJ9ulL-xamtFXt6AKWb0cX9ZWlYyQ&s',
+    name: 'Simran Kaur',
+    post: 'Nice Products',
     rating: 4,
-    reviewText: 'Good product overall. I have no major complaints, but a few features could be improved.',
+    reviewText: 'Product accha hai overall. Koi bada complaint nahi hai, lekin kuch features ko thoda aur improve kiya jaa sakta tha.',
   },
+ 
 ];
+
 
 const Review = () => {
   return (
@@ -75,7 +77,7 @@ const Review = () => {
           <img
             src={review.avatar}
             alt={review.name}
-            className="w-12 h-12 rounded-full object-cover"
+            className="w-12 h-12 rounded-full object-top object-cover"
           />
           <div className="text-left">
             <h3 className="text-base font-semibold text-white">{review.name}</h3>

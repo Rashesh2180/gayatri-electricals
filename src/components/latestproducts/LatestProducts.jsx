@@ -8,7 +8,7 @@ const LatestProducts = () => {
       <h1 className='text-center text-white text-3xl font-bold capitalize'>
         Latest New Products
       </h1>
-      <div className='grid xl:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-8 mt-6'>
+      <div className='grid xl:grid-cols-4 md:grid-cols-3 place-content-center sm:grid-cols-2 gap-8 mt-6'>
         {lightsData.map((product) => (
           <div key={product.id} className='p-4  cursor-pointer rounded-xl max-sm:max-w-[320px] shadow-lg max-w-[300px] w-full'>
             <Link to={`/product/${product.id}`}>
