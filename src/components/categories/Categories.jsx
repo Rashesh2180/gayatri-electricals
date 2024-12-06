@@ -2,7 +2,9 @@ import React, { useState } from "react";
 import { FaLightbulb, FaSearch, FaCogs, FaPaintBrush } from "react-icons/fa"; // Example icons
 import { LiaSolarPanelSolid } from "react-icons/lia";
 import { FcLightAtTheEndOfTunnel } from "react-icons/fc";
-import { GiEnlightenment,GiBedLamp,GiDeskLamp   } from "react-icons/gi";
+import { GiEnlightenment,GiBedLamp,GiDeskLamp,GiLampreyMouth    } from "react-icons/gi";
+import { GiWallLight ,GiTruck} from "react-icons/gi";
+import { BsFillBrightnessHighFill } from "react-icons/bs";
 
 // Data for categories and additional details (including an image URL for each category)
 const categories = [
@@ -20,7 +22,7 @@ const categories = [
   {
     id: 2,
     name: "Flood Lights",
-    icon: <FcLightAtTheEndOfTunnel />,
+    icon: <FcLightAtTheEndOfTunnel className=" text-white" />,
     items: 15,
     img: "https://via.placeholder.com/150",
     price: "$80",
@@ -61,7 +63,7 @@ const categories = [
   {
     id: 6,
     name: "Zummer",
-    icon: <FaSearch />,
+    icon: <GiLampreyMouth />,
     items: 20,
     img: "https://via.placeholder.com/150",
     price: "$70",
@@ -92,7 +94,7 @@ const categories = [
   {
     id: 9,
     name: "High Bave",
-    icon: <FaPaintBrush />,
+    icon: <BsFillBrightnessHighFill />,
     items: 50,
     img: "https://via.placeholder.com/150",
     price: "$25",
@@ -102,7 +104,7 @@ const categories = [
   {
     id: 10,
     name: "Driver Led",
-    icon: <FaPaintBrush />,
+    icon: <GiTruck />,
     items: 50,
     img: "https://via.placeholder.com/150",
     price: "$25",
@@ -112,7 +114,7 @@ const categories = [
   {
     id: 11,
     name: "Wall",
-    icon: <FaSearch />,
+    icon: <GiWallLight />,
     items: 20,
     img: "https://via.placeholder.com/150",
     price: "$70",
@@ -155,7 +157,7 @@ const Categories = () => {
                 : "bg-secondary"
             }`}
           >
-            <div className="text-2xl mb-3 text-white">{category.icon}</div>
+            <div className="text-2xl mb-3 !text-white">{category.icon}</div>
             <h2 className="text-lg mt-3 text-center font-semibold mb-1 text-white">
               {category.name}
             </h2>
