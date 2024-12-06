@@ -6,6 +6,7 @@ import ContactUs from "../pages/contactus/ContactUs";
 import AboutUs from "../pages/aboutus/AboutUs";
 import Login from "../pages/login/Login";
 import Products from "../pages/products/Products";
+import BuyNowForm from "../pages/buynow/BuyNowForm";
 
 const router = createBrowserRouter([
   {
@@ -35,6 +36,10 @@ const router = createBrowserRouter([
       {
         path: "/products",
         element: <Products />,
+      },
+      {
+        path: "/buy-now/:id",
+        element: <BuyNowForm />,
       },
     ],
   },
