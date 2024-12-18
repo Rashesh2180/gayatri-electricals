@@ -20,7 +20,6 @@ const Header = () => {
     setOpen((prev) => !prev);
   };
 
-  // Function to close the menu when a link is clicked
   const handleLinkClick = () => {
     setOpen(false); // Close the menu
   };
@@ -45,13 +44,11 @@ const Header = () => {
   }
 
   return (
-    <div className="flex justify-between items-center total-width mx-auto px-3 sm:px-5 py-4 sticky top-0 left-0">
+    <div className="flex justify-between bg-[#09092a] z-50 items-center total-width mx-auto px-2 sm:px-5 py-4 sticky top-0 left-0">
       {/* logo */}
-      <a href="/" className="flex items-center gap-2">
-        <div className="bg-red-950 p-2 text-lg flex items-center justify-center h-10 w-10 rounded-full text-white font-bold">
-          GL
-        </div>
-        <div className="text-white font-semibold text-xl max-sm:text-base">GreatLumen</div>
+      <a href="/" className="flex items-center gap-2 rounded-md overflow-hidden w-[100px] sm:w-[200px] h-14">
+       <img src="/assets/svg/gayatrilogo.jpg" alt="" className="  h-full w-full rounded-md object-contain" />
+        
       </a>
 
       <ul className="flex items-center gap-8 text-white max-lg:hidden">
@@ -74,7 +71,7 @@ const Header = () => {
 
       <div className="flex sm:gap-4 gap-2 items-center">
         <div className="relative p-2 h-10 w-10 border border-white flex items-center justify-center rounded-full">
-          <a href="/cart">
+          <a href="/">
             <CiShoppingCart className="text-white font-bold text-xl" />
           </a>
           <div className="absolute -top-1 -right-1 h-5 w-5 rounded-full bg-orange-600 text-white text-xs flex items-center justify-center text-center">

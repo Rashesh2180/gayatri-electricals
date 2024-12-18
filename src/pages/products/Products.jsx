@@ -16,11 +16,11 @@ const Products = () => {
               alt={product.name}
               className='w-full h-[250px] object-cover rounded-xl'
             />
-            <h3 className='text-lg font-semibold text-white'>{product.name}</h3>
-            <p className='text-gray-400'>{product.watt} Watt</p>
-            <p className='text-lg font-semibold text-orange-600'>
+            <h3 className='text-lg font-semibold text-white mt-5'>{product.name}</h3>
+            {/* <p className='text-gray-400'>{product.watt} Watt</p> */}
+            {/* <p className='text-lg font-semibold text-orange-600'>
               ₹ {product.price}
-            </p>
+            </p> */}
           </Link>
         </div>
       ))}

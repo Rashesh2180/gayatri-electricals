@@ -161,7 +161,7 @@ const Categories = () => {
             <h2 className="text-lg mt-3 text-center font-semibold mb-1 text-white">
               {category.name}
             </h2>
-            <p
+            {/* <p
               className={` text-sm ${
                 selectedCategory === category.id
                   ? " text-white "
@@ -169,7 +169,7 @@ const Categories = () => {
               }`}
             >
               {category.items} Items
-            </p>
+            </p> */}
           </div>
         ))}
       </div>

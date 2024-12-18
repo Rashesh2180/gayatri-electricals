@@ -21,7 +21,9 @@ function App() {
         />
         <meta name="robots" content="index, follow" />
       </Helmet>
-      <Header />
+    <div className=" w-full sticky top-0 z-50 ">
+       <Header />
+    </div>
       <main className="min-h-[calc(100vh-120px)]">
         <Outlet />
       </main>

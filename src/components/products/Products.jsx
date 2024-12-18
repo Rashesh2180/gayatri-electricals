@@ -74,14 +74,14 @@ const Products = () => {
               </div>
               <div className="flex justify-between items-center mt-3">
                 <div>
-                  <h3 className="text-lg font-semibold text-white">
+                  <h3 className="text-xl mt-2 font-semibold text-white">
                     {ele.name}
                   </h3>
-                  <h2 className="mt-1 text-sm text-gray-400">
+                  {/* <h2 className="mt-1 text-sm text-gray-400">
                     {ele.watt} Watt
-                  </h2>
+                  </h2> */}
                 </div>
-                <p className="text-sm text-orange-600">₹ {ele.price}</p>
+                {/* <p className="text-sm text-orange-600">₹ {ele.price}</p> */}
               </div>
             </Link>
           </SwiperSlide>
