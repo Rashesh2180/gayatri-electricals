@@ -29,7 +29,7 @@ const BuyNowForm = () => {
       *Email:* ${email}
     `;
 
-    const whatsappNumber = "+918905976171"; 
+    const whatsappNumber = "+919106824852"; 
 
     const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
 
