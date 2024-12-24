@@ -20,8 +20,6 @@ const BuyNowForm = () => {
     const message = `
       *New Order Details:*
       *Product:* ${product.name}
-      *Price:* ₹${product.price}
-      *Wattage:* ${product.watt}
       *Description:* ${product.description || "No description available"}
       
       *Customer Details:*
